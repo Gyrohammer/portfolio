@@ -1,3 +1,14 @@
-site_name: My Docs
+site_name: Max Youngs' Portfolio
+site_description: A place where I can consolidate and showcase my professional and home-made projects.
+site_author: Max H. Young
+
+repo_url: https://github.com/Gyrohammer/portfolio
+remote_branch: gh-pages
+remote_name: origin
+
 theme:
   name: material
+  
+nav:
+    - 'index.md'
+    - 'about.md'
