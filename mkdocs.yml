@@ -6,9 +6,97 @@ repo_url: https://github.com/Gyrohammer/portfolio
 remote_branch: gh-pages
 remote_name: origin
 
+plugins:
+    - search
+
+extra:
+    social:
+        - icon: fontawesome/brands/github
+          link: https://github.com/Gyrohammer
+          
+copyright: Copyright &copy; 2023 Max Young
+
 theme:
   name: material
+  langage: en
+  
+  features: 
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tabs
+    - navigation.sections
+    - search.highlight
+    - header.autohide
+  
+  logo: assets/logo.png
+  favicon: assets/favicon.png
+  
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/lightbulb
+        #primary: blue grey
+        name: Toggle dark mode
+        
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/lightbulb-outline
+        #primary: slate
+        name: Toggle light mode
   
 nav:
-    - 'index.md'
-    - 'about.md'
+    - Home: index.md
+    - About: about.md
+    - Mechanical Engineering: 
+        - About: mechanical_engineering/me_about.md
+        - 3D Printing: mechanical_engineering/3dprinting.md
+        - Modeling: mechanical_engineering/fusion360.md
+    - Software Development:
+        - About: software_dev/software_about.md
+        - Python: software_dev/python.md
+        - C/C++: software_dev/c.md
+        - Java: software_dev/java.md
+    - Home Labbing: 
+        - About: homelab/homelab_about.md
+        - Docker Containers: homelab/docker.md
+        - VPN Hosting: homelab/wireguard.md
+        - Reverse Proxy: homelab/nginx.md
+    - Data Analysis: 
+        - Custom Solution: data_analysis/to_analysis.md
+        - Power BI: data_analysis/powerbi.md
+        
+markdown_extensions:
+
+  # Python Markdown
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+
+  # Python Markdown Extensions
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
