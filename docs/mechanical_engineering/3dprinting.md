@@ -11,5 +11,5 @@ At work I lobbied for us to obtain a printer for quick prototyping and rapid pro
 <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.3.0/model-viewer.min.js"></script>
 
 <!-- Use it like any other HTML element -->
-<model-viewer style="width: 100%; height: 800px; top: 0px;  position: sticky" alt="BTT SKR3 Case" src="/mechanical_engineering/externalfanvent.glb" ar environment-image="" poster="" shadow-intensity="1" camera-controls touch-action="pan-y"></model-viewer>
+<model-viewer style="width: 100%; height: 800px; top: 0px;  position: sticky" alt="BTT SKR3 Case" auto-rotate src="/mechanical_engineering/enclosure.glb" ar environment-image="" poster="" shadow-intensity="1" camera-controls touch-action="" loading="eager" render-scale=0.5 ></model-viewer>
 
