@@ -1,17 +1,5 @@
-# Welcome to MkDocs
+# NGINX
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+My NGINX implementation is used to allow easy access to some of my services that I run. Utilizing this reverse proxy allows for easy IP resolution for my VPN.
 
-## Commands
-
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+<!-- May be wise to remove this, I already explained a lot of this on the about page. Maybe too much, may be wise to turn this into the more descriptive section. -->

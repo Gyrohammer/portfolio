@@ -1,17 +1,3 @@
-# Welcome to MkDocs
+# Fusion360
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
-
-## Commands
-
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+The need to learn software came from the want for customization. I learned, through some online courses as well as trial and error, how to more efficiently create models to fit a variety of purposes. My designs are always free and uploaded to thingiverse as well a printables for ease of access. If you'd like other formats of a model let me know and I will be happy to provide them to you.

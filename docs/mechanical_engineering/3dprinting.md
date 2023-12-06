@@ -1,17 +1,15 @@
-# Welcome to MkDocs
+# 3D Printing/Additive Manufacturing
+I began 3D printing after I saw a printer on sale. I have since modified every part save for the frame. Along my journey I have learned how to model efficiently in Fusion360 as well as design custom PCB's in KiCad. This journey has culminated in a fully custom IKEA Lack enclosure that I have designed and assembled myself.
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+<!-- Show pictures of enclosure, PCB, printer etc. -->
 
-## Commands
+At work I lobbied for us to obtain a printer for quick prototyping and rapid product development. My request was granted, and I now lead the rapid prototyping division. My work has been used in tooling for the clean room as well as some parts being used in final production units.
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+<!-- Show spinning 3D models here, make em HTML5 gifs pls. -->
 
-## Project layout
+<!-- Import the component -->
+<script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.3.0/model-viewer.min.js"></script>
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+<!-- Use it like any other HTML element -->
+<model-viewer style="width: 100%; height: 800px; top: 0px;  position: sticky" alt="BTT SKR3 Case" src="/mechanical_engineering/externalfanvent.glb" ar environment-image="" poster="" shadow-intensity="1" camera-controls touch-action="pan-y"></model-viewer>
+

@@ -47,7 +47,7 @@ theme:
         name: Toggle light mode
   
 nav:
-    - Home: index.md
+    - Home: about.md
     - About: about.md
     - Mechanical Engineering: 
         - About: mechanical_engineering/me_about.md

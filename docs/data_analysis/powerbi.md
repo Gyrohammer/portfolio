@@ -1,17 +1,4 @@
-# Welcome to MkDocs
+# Power BI Analysis
+At my current place of employment we have batches of product that we use with varying levels of performance. Normally the lead technician would make an educated guess as to which batches performed the best for a given unit. I was unhappy with that system and instead, using Power BI (PBI), analyzed our historical unit data to find and bin the batches.
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
-
-## Commands
-
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+As a result we now know exactly how each batch should perform which aids in troubleshooting when a machine is out of spec. We can also now use the performance analysis to ensure that high priority units are given the best batches for the quickest turnaround time.
