@@ -79,7 +79,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#welcome-to-mkdocs" class="md-skip">
+        <a href="#3d-printingadditive-manufacturing" class="md-skip">
           Skip to content
         </a>
       
@@ -216,7 +216,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../.." class="md-tabs__link">
+      <a href="../../about/" class="md-tabs__link">
         
   
     
@@ -308,7 +308,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../data_analysis/to_analysis.md" class="md-tabs__link">
+        <a href="../../data_analysis/to_analysis/" class="md-tabs__link">
           
   
   Data Analysis
@@ -370,7 +370,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../.." class="md-nav__link">
+      <a href="../../about/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -482,17 +482,6 @@
         
       
       
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  <span class="md-ellipsis">
-    3D Printing
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -502,43 +491,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#commands" class="md-nav__link">
-    <span class="md-ellipsis">
-      Commands
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#project-layout" class="md-nav__link">
-    <span class="md-ellipsis">
-      Project layout
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
       
     </li>
   
@@ -882,7 +834,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../data_analysis/to_analysis.md" class="md-nav__link">
+      <a href="../../data_analysis/to_analysis/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -944,32 +896,6 @@
     
   
   
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#commands" class="md-nav__link">
-    <span class="md-ellipsis">
-      Commands
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#project-layout" class="md-nav__link">
-    <span class="md-ellipsis">
-      Project layout
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
 </nav>
                   </div>
                 </div>
@@ -986,21 +912,18 @@
   
 
 
-<h1 id="welcome-to-mkdocs">Welcome to MkDocs<a class="headerlink" href="#welcome-to-mkdocs" title="Permanent link">&para;</a></h1>
-<p>For full documentation visit <a href="https://www.mkdocs.org">mkdocs.org</a>.</p>
-<h2 id="commands">Commands<a class="headerlink" href="#commands" title="Permanent link">&para;</a></h2>
-<ul>
-<li><code>mkdocs new [dir-name]</code> - Create a new project.</li>
-<li><code>mkdocs serve</code> - Start the live-reloading docs server.</li>
-<li><code>mkdocs build</code> - Build the documentation site.</li>
-<li><code>mkdocs -h</code> - Print help message and exit.</li>
-</ul>
-<h2 id="project-layout">Project layout<a class="headerlink" href="#project-layout" title="Permanent link">&para;</a></h2>
-<div class="highlight"><pre><span></span><code>mkdocs.yml    # The configuration file.
-docs/
-    index.md  # The documentation homepage.
-    ...       # Other markdown pages, images and other files.
-</code></pre></div>
+<h1 id="3d-printingadditive-manufacturing">3D Printing/Additive Manufacturing<a class="headerlink" href="#3d-printingadditive-manufacturing" title="Permanent link">&para;</a></h1>
+<p>I began 3D printing after I saw a printer on sale. I have since modified every part save for the frame. Along my journey I have learned how to model efficiently in Fusion360 as well as design custom PCB's in KiCad. This journey has culminated in a fully custom IKEA Lack enclosure that I have designed and assembled myself.</p>
+<!-- Show pictures of enclosure, PCB, printer etc. -->
+
+<p>At work I lobbied for us to obtain a printer for quick prototyping and rapid product development. My request was granted, and I now lead the rapid prototyping division. My work has been used in tooling for the clean room as well as some parts being used in final production units.</p>
+<!-- Show spinning 3D models here, make em HTML5 gifs pls. -->
+
+<!-- Import the component -->
+<script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.3.0/model-viewer.min.js"></script>
+
+<!-- Use it like any other HTML element -->
+<p><model-viewer style="width: 100%; height: 800px; top: 0px;  position: sticky" alt="BTT SKR3 Case" auto-rotate src="/mechanical_engineering/enclosure.glb" ar environment-image="" poster="" shadow-intensity="1" camera-controls touch-action="" loading="eager" render-scale=0.5 ></model-viewer></p>
 
 
 

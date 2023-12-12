@@ -79,7 +79,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#welcome-to-mkdocs" class="md-skip">
+        <a href="#home-server-homelab" class="md-skip">
           Skip to content
         </a>
       
@@ -216,7 +216,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../.." class="md-tabs__link">
+      <a href="../../about/" class="md-tabs__link">
         
   
     
@@ -308,7 +308,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../data_analysis/to_analysis.md" class="md-tabs__link">
+        <a href="../../data_analysis/to_analysis/" class="md-tabs__link">
           
   
   Data Analysis
@@ -370,7 +370,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../.." class="md-nav__link">
+      <a href="../../about/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -739,18 +739,45 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#commands" class="md-nav__link">
+  <a href="#jellfyin" class="md-nav__link">
     <span class="md-ellipsis">
-      Commands
+      Jellfyin 
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#project-layout" class="md-nav__link">
+  <a href="#wireguard" class="md-nav__link">
     <span class="md-ellipsis">
-      Project layout
+      Wireguard 
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#photosync" class="md-nav__link">
+    <span class="md-ellipsis">
+      Photosync 
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gameservers" class="md-nav__link">
+    <span class="md-ellipsis">
+      Gameservers 
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#network-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      Network Management 
     </span>
   </a>
   
@@ -882,7 +909,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../data_analysis/to_analysis.md" class="md-nav__link">
+      <a href="../../data_analysis/to_analysis/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -951,18 +978,45 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#commands" class="md-nav__link">
+  <a href="#jellfyin" class="md-nav__link">
     <span class="md-ellipsis">
-      Commands
+      Jellfyin 
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#project-layout" class="md-nav__link">
+  <a href="#wireguard" class="md-nav__link">
     <span class="md-ellipsis">
-      Project layout
+      Wireguard 
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#photosync" class="md-nav__link">
+    <span class="md-ellipsis">
+      Photosync 
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gameservers" class="md-nav__link">
+    <span class="md-ellipsis">
+      Gameservers 
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#network-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      Network Management 
     </span>
   </a>
   
@@ -986,21 +1040,18 @@
   
 
 
-<h1 id="welcome-to-mkdocs">Welcome to MkDocs<a class="headerlink" href="#welcome-to-mkdocs" title="Permanent link">&para;</a></h1>
-<p>For full documentation visit <a href="https://www.mkdocs.org">mkdocs.org</a>.</p>
-<h2 id="commands">Commands<a class="headerlink" href="#commands" title="Permanent link">&para;</a></h2>
-<ul>
-<li><code>mkdocs new [dir-name]</code> - Create a new project.</li>
-<li><code>mkdocs serve</code> - Start the live-reloading docs server.</li>
-<li><code>mkdocs build</code> - Build the documentation site.</li>
-<li><code>mkdocs -h</code> - Print help message and exit.</li>
-</ul>
-<h2 id="project-layout">Project layout<a class="headerlink" href="#project-layout" title="Permanent link">&para;</a></h2>
-<div class="highlight"><pre><span></span><code>mkdocs.yml    # The configuration file.
-docs/
-    index.md  # The documentation homepage.
-    ...       # Other markdown pages, images and other files.
-</code></pre></div>
+<h1 id="home-server-homelab">Home Server (Homelab)<a class="headerlink" href="#home-server-homelab" title="Permanent link">&para;</a></h1>
+<p>I got into homelabbing out of curioisty and need. My main need was to have a NAS (Network Attached Storage) for simple computer backup for both my system and my partners system. I also enjoyed the thought of self-hosting a variety of services that I would find useful such as:</p>
+<h2 id="jellfyin">Jellfyin <img align="" width="20" height="20" src="/docs/assets/jellyfin_logo.png"/><a class="headerlink" href="#jellfyin" title="Permanent link">&para;</a></h2>
+<p>I have quite a lot of physical media which means uploading it to the server allows me to play it whenever and wherever I please. I do this in tandem with wireguard, a VPN which is hosted on the OPNSense router as well as on the main server.</p>
+<h2 id="wireguard">Wireguard <img align="" width="20" height="20" src="/docs/assets/wireguard-icon.png"/><a class="headerlink" href="#wireguard" title="Permanent link">&para;</a></h2>
+<p>This is my VPN of choice for accessing my home network on the go. Not only does this ensure privacy on public networks, but it also blocks ads due to PiHole, a DNS filter.</p>
+<h2 id="photosync">Photosync <img align="" width="20" height="20" src="/docs/assets/photosync-icon.png"/><a class="headerlink" href="#photosync" title="Permanent link">&para;</a></h2>
+<p>As well as backing up to iTunes, I employ backing my photo library up to a local folder on the server. This ensures two copies are made (three if we think recursively) as well as makes sure they're easily accessible should I need to manually look through them.</p>
+<h2 id="gameservers">Gameservers <img align="" width="20" height="20" src=""/><a class="headerlink" href="#gameservers" title="Permanent link">&para;</a></h2>
+<p>Hosting a server for a multiplayer game can be a pain which is why I took it upon myself to host anything that friends or family wish to play. By using cloudflares DNS system I can resolve my personal IP address to a url for easier usage.</p>
+<h2 id="network-management">Network Management <img align="" width="20" height="20" src=""/><a class="headerlink" href="#network-management" title="Permanent link">&para;</a></h2>
+<p>My router is a OPNSense system running on an intel NUC. I also have unifi systems on my network which are controlled by a docker container on the main server. OPNSense was chosen to familiarize myself with enterprise implementations like PFSense and for data privacy. This NUC can also be used as another host if I were to set up a docker swarm for other projects.</p>
 
 
 
