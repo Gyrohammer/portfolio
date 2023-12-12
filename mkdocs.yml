@@ -16,6 +16,8 @@ extra:
           
 copyright: Copyright &copy; 2023 Max Young
 
+use_directory_urls: true
+
 theme:
   name: material
   langage: en
