@@ -29,6 +29,7 @@ theme:
     - navigation.sections
     - search.highlight
     - header.autohide
+    - content.code.copy
   
   logo: assets/logo.png
   favicon: assets/favicon.png
@@ -51,6 +52,9 @@ theme:
 nav:
     - Home: about.md
     - About: about.md
+    - Data Analysis: 
+        - Custom Solution: data_analysis/to_analysis.md
+        - Power BI: data_analysis/powerbi.md
     - Mechanical Engineering: 
         - About: mechanical_engineering/me_about.md
         - 3D Printing: mechanical_engineering/3dprinting.md
@@ -66,40 +70,17 @@ nav:
         - VPN Hosting: homelab/wireguard.md
         - Reverse Proxy: homelab/nginx.md
         - Automated Backup and Safety Systems: homelab/backup_methods.md
-    - Data Analysis: 
-        - Custom Solution: data_analysis/to_analysis.md
-        - Power BI: data_analysis/powerbi.md
+
         
 markdown_extensions:
-
-  # Python Markdown
-  - abbr
-  - admonition
-  - attr_list
-  - def_list
-  - footnotes
-  - md_in_html
-  - toc:
-      permalink: true
-
-  # Python Markdown Extensions
-  - pymdownx.arithmatex:
-      generic: true
-  - pymdownx.betterem:
-      smart_enable: all
-  - pymdownx.caret
-  - pymdownx.details
-  - pymdownx.emoji:
-      emoji_index: !!python/name:material.extensions.emoji.twemoji
-      emoji_generator: !!python/name:material.extensions.emoji.to_svg
-  - pymdownx.highlight
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
   - pymdownx.inlinehilite
-  - pymdownx.keys
-  - pymdownx.mark
-  - pymdownx.smartsymbols
+  - pymdownx.snippets
   - pymdownx.superfences
-  - pymdownx.tabbed:
-      alternate_style: true
-  - pymdownx.tasklist:
-      custom_checkbox: true
-  - pymdownx.tilde
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+

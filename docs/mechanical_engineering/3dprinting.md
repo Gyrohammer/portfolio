@@ -5,8 +5,6 @@ I began 3D printing after I saw a printer on sale. I have since modified every p
 
 At work I lobbied for us to obtain a printer for quick prototyping and rapid product development. My request was granted, and I now lead the rapid prototyping division. My work has been used in tooling for the clean room as well as some parts being used in final production units.
 
-<!-- Show spinning 3D models here, make em HTML5 gifs pls. -->
-
 <!-- Import the component -->
 <script type="module" src="../assets/javascript/model-viewer.js"></script>
 
