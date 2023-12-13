@@ -8,8 +8,8 @@ At work I lobbied for us to obtain a printer for quick prototyping and rapid pro
 <!-- Show spinning 3D models here, make em HTML5 gifs pls. -->
 
 <!-- Import the component -->
-<script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.3.0/model-viewer.min.js"></script>
+<script type="module" src="../assets/javascript/model-viewer.js"></script>
 
 <!-- Use it like any other HTML element -->
-<model-viewer style="width: 100%; height: 800px; top: 0px;  position: sticky" alt="BTT SKR3 Case" auto-rotate src="/assets/models/enclosure.glb" ar environment-image="" poster="" shadow-intensity="1" camera-controls touch-action="" loading="eager" render-scale=0.5 ></model-viewer>
+<model-viewer style="width: 100%; height: 800px; top: 0px;  position: sticky" alt="BTT SKR3 Case" auto-rotate src="../assets/models/enclosure.glb" ar environment-image="" poster="" shadow-intensity="1" camera-controls touch-action="" loading="eager" render-scale=0.5 ></model-viewer>
 
