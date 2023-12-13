@@ -65,6 +65,7 @@ nav:
         - Docker Containers: homelab/docker.md
         - VPN Hosting: homelab/wireguard.md
         - Reverse Proxy: homelab/nginx.md
+        - Automated Backup and Safety Systems: homelab/backup_methods.md
     - Data Analysis: 
         - Custom Solution: data_analysis/to_analysis.md
         - Power BI: data_analysis/powerbi.md
