@@ -1,5 +1,5 @@
 # NGINX 
-My NGINX implementation is used to allow easy access to some of my services that I run. Utilizing this reverse proxy allows for easy IP resolution for my VPN.
+My NGINX implementation is used to allow easy access to some of my services that I run. Utilizing this reverse proxy allows for easy IP resolution for my VPN. This also allows for easier connections when users need to access a service on the server.
 
 <center><img align="" width="110" height="110" src="../assets/nginx-icon.png"/>
 

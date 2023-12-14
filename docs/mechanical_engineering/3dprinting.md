@@ -1,5 +1,5 @@
 # 3D Printing/Additive Manufacturing
-I began 3D printing after I saw a printer on sale. I have since modified every part save for the frame. Along my journey I have learned how to model efficiently in Fusion360 as well as design custom PCB's in KiCad. This journey has culminated in a fully custom IKEA Lack enclosure that I have designed and assembled myself.
+I began 3D printing after I saw a printer on sale. I have since modified every part save for the frame, the project is being tracked under my [KGM repo](https://gyrohammer.github.io/KGM/){:target="_blank"}. Along my journey I have learned how to model efficiently in Fusion360 as well as design custom PCB's in KiCad. This journey has culminated in a fully custom IKEA Lack enclosure that I have designed and assembled myself. The model of the enclosure can be seen below in the 3D model viewer.
 
 <!-- Show pictures of enclosure, PCB, printer etc. -->
 

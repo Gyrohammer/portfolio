@@ -51,7 +51,6 @@ theme:
   
 nav:
     - Home: about.md
-    - About: about.md
     - Data Analysis: 
         - Custom Solution: data_analysis/to_analysis.md
         - Power BI: data_analysis/powerbi.md
@@ -83,4 +82,5 @@ markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
+  - attr_list
 
