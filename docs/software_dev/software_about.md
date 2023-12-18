@@ -1,10 +1,3 @@
 # Software/Programming  
 
-#### C/++
-I intially began my programming journey in highschool where I elected to take a course teaching C/++. In this course we learned the basics of programming culiminating in a final project to showcase our skills.
-
-#### Java
-The next elective was java. This classs was similar to the previous, I definitely enjoyed it more though. Java would be a language that I would return to occasionaly for small things such as custom scripts or some web oriented uses.
-
-#### Python
-This is the language I am currently most familiar with. I use this frequently to create small programs and automations that help increase efficienct both at home and at work. I learned python through using it, meaning my formalities with the code are likely to be uncouth. That being said my documentation is up-to-date and properly vetted from seniors at work.
+My degree in physics has allowed me to venture into some coding and programming experience. We mainly used MATLAB in class, but I found ways to implement programming in a few instances. One such instance was using LaTeX for homework assignments as well as projects. I've found it to be extremely useful when needed to convet complex calculations, vs writing them out by hand. I've also used programming at home for some light applications such as 3d printing, modifying firmware, etc. I would not call myself an expert, but I am capable. One of my more complete and important projects has to do with my work, where I created software via python that allows for a more efficient workflow to maximize productivity.
