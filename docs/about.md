@@ -8,4 +8,5 @@ On this site you'll find examples of projects from personal hobbies to official 
 ## Questions
 If you have any inquiries feel free to reach out!
 
-<!-- This will need a photo, as well as some other touches to make it less boring. This is mainly placeholder. -->
+<!-- This will need a photo, as well as some other touches to make it less boring. This is mainly placeholder. Hello to anyone looking through the 
+source for this website. -->

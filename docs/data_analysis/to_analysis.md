@@ -68,4 +68,3 @@ The end result is a program that is faster and more consistent than manual data 
 ## Future Plans
 I hope to expand my programming skill in the future by continuing to improve on Python, and refreshing myself with C++ and Java. I'll likely be re-writing the program in C++ for faster execution and better modularity for different departments. 
 
-<!-- Include screenshots of power bi visuals and explain them. Will have to figure out some smooth image formatting... that'll be rough. -->

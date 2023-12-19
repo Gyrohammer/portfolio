@@ -4,4 +4,4 @@ This is my choice for VPN implementation. I have one running directly from OPNSe
 
  <center><img align="" width="110" height="110" src="../assets/wireguard-icon.png"/>
 
-<!-- Definitely expand a bit here, I think that perhaps these more detailed pages could be used better. More images for sure. -->
+<!-- Definitely expand a bit here, I think that perhaps these more detailed pages could be used better. More images for sure. Work in progress! -->
