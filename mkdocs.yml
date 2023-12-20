@@ -50,7 +50,7 @@ theme:
         name: Toggle light mode
   
 nav:
-    - Home: about.md
+    - Home: index.md
     - Data Analysis: 
         - Custom Solution: data_analysis/to_analysis.md
         - Power BI: data_analysis/powerbi.md
