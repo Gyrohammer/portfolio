@@ -8,4 +8,6 @@ My enclosure project required the use of a custom PCB as a type of breakout boar
 # Comma3X Quick Disconnect
 Another project I came across was a magnetic pogo-pin mount. I installed a Comma3X (car autopilot) system into my new vehicle. During the summer months it can get quite hot here, hot enough where I enjoy putting a sun-shield up to keep my car somewhat cool. This system gets in the way, so how can I make something that is reliable and easy to remove? Magnets! 
 
+This design is similar to another on the comma ai discord. This design by cloudj has some advantages such as being CNC machined out of aluminum, adding strength and endurance. Downsides to his production include a long wait time, and high cost at \$130USD per mount. My project aims to make the design open source and cost less at around \$70-80USD. Downsides to my design will likely be its long initial development time and less resilient material (plastic vs aluminum). Hopefully my lead times are lower being US-based vs Taiwan-based.
+
 This project is still in the developmental stages, you can find its progress on the [CommaPOGO github](https://github.com/Gyrohammer/commapogo){:target="_blank"}. Documentation and a full write up will be posted here once the project is more complete.
