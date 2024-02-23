@@ -69,6 +69,8 @@ nav:
         - VPN Hosting: homelab/wireguard.md
         - Reverse Proxy: homelab/nginx.md
         - Automated Backup and Safety Systems: homelab/backup_methods.md
+    - PCB Design:
+        - pcb_design/about.md
         
 markdown_extensions:
   - pymdownx.highlight:
